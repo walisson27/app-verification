@@ -1,0 +1,144 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .loading {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #333;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+.framedados{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 64px;
+}
+
+.dadosuser{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    color: var(--cor-font);
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 16px;
+}
+
+.centro-dados{
+    display: flex;
+    background-color: var(--cor-secundaria);
+    border-radius: 8px 8px 8px 8px;
+    width: 448px;
+    height: 48px;
+    margin-bottom: 16px;
+}
+
+.cidade-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-size: 22px;
+    padding-left: 16px;
+}
+
+.city-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-size: 22px;
+    padding-left: 16px;
+}
+
+.section-uf{
+    display: flex;
+    background-color: var(--cor-secundaria);
+    border-radius: 8px 8px 8px 8px;
+    width: 448px;
+    height: 48px;
+}
+.uf-style{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.uf-city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-size: 22px;
+    padding-left: 50px;
+}
+.calor-style{
+    display: flex;
+    flex-direction: column;
+}
+
+.calor-fonte{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 16px;
+}
+.tempo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor-fundo);
+    border-radius: 24px 24px 24px 24px;
+    width: 448px;
+    height: 316px;
+}
+
+.tempo-condicao{
+    width: 220px;
+    height: 220px;
+}
+
+.img-pouco{
+    width: 124px;
+    height: 48px;
+}
+
+.img-muito{
+    width: 124px;
+    height: 48px;
+}
+
+@media (max-width: 450px) {
+    .dadosuser{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .centro-dados{
+        display: flex;
+        justify-content: center;
+        width: 405px; 
+    }
+    .section-uf{
+        display: flex;
+        justify-content: center;
+        width: 405px;
+    }
+    .calor-fonte{
+        display: flex;
+        justify-content: center;
+    }
+    .tempo{
+        border-radius: 24px 24px 24px 24px;
+        width: 405px;
+        height: 206px;
+    }
+}

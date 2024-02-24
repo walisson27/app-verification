@@ -1,0 +1,57 @@
+.frameip{
+    padding-top: 65px;
+    padding-bottom: 64px;
+}
+.ipinfor{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: var(--cor-font);
+    font-size: 22px;
+    padding-bottom: 16px;
+}
+.ip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-size: 22px;
+    padding-left: 20px;
+}
+.ip-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-primaria);
+    font-size: 22px;
+    padding-left: 74px;
+}
+.centra-ip{
+    display: flex;
+    background-color: var(--cor-secundaria);
+    border-radius: 8px 8px 8px 8px;
+    width: 448px;
+    height: 48px;
+}
+.centralize{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 450px) {
+    .ipinfor {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+    .centra-ip{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 405px;
+    }
+
+}
