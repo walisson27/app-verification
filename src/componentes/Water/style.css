@@ -15,17 +15,34 @@
     display: flex;
     align-items: center;
     padding-right: 16px;
+    color: var(--cor-font);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 22px;
 }
 
 .water-info{
     display: flex;
-    font-size: 22px;
-    color: var(--cor-font);
-    font-family: sans-serif;
-    font-weight: bold;
     padding-bottom: 64px;
 }
 
 .img-primaria{
     padding-right: 7px;
+}
+@media (max-width: 450px) {
+  .water-info{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 6px;
+  }
+  .water-style{
+    padding-bottom: 6px;
+  }
+  .img-primaria{
+    padding-bottom: 6px;
+  }
+  .water-centro{
+    display: flex;
+  }
 }

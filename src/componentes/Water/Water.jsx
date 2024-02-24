@@ -59,8 +59,10 @@ function Water({ latitude, longitude }) {
     <>
       <section className="water-info">
         <p className='water-style'>Está na Água?</p>
-        <img className='img-primaria' src={isInWater ? nao : sim} alt={isInWater ? 'Sim' : 'Não'} />
-        <img className='img-second' src={isInWater ? simefe : naoefe} alt={isInWater ? 'Sim com efeito' : 'Não com efeito'} />
+        <div className='water-centro'>
+          <img className='img-primaria' src={isInWater ? nao : sim} alt={isInWater ? 'Sim' : 'Não'} />
+          <img className='img-second' src={isInWater ? simefe : naoefe} alt={isInWater ? 'Sim com efeito' : 'Não com efeito'} />
+        </div>
       </section>
     </>
   );
