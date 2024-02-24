@@ -125,12 +125,12 @@
     .centro-dados{
         display: flex;
         justify-content: center;
-        width: 405px; 
+        width: 385px; 
     }
     .section-uf{
         display: flex;
         justify-content: center;
-        width: 405px;
+        width: 385px;
     }
     .calor-fonte{
         display: flex;
@@ -138,7 +138,8 @@
     }
     .tempo{
         border-radius: 24px 24px 24px 24px;
-        width: 405px;
+        width: 385px;
         height: 206px;
+        margin-bottom: 35px;
     }
 }

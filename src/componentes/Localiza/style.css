@@ -1,5 +1,5 @@
 .frameip{
-    padding-top: 65px;
+    padding-top: 35px;
     padding-bottom: 64px;
 }
 .ipinfor{
@@ -51,7 +51,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 405px;
+        width: 385px;
     }
 
 }
